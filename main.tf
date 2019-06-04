@@ -138,7 +138,7 @@ resource "azurerm_virtual_machine" "site" {
   }
 
   os_profile {
-    computer_name  = "${var.hostname}"
+    computer_name  = "${var.hostname2}"
     admin_username = "${var.admin_username}"
     admin_password = "${var.admin_password}"
   }
