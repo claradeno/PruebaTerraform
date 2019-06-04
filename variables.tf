@@ -20,6 +20,10 @@ variable "hostname" {
   default     = "mydemosan1"
 }
 
+variable "hostname" {
+  description = "Virtual machine hostname. Used for local hostname, DNS, and storage-related names."
+  default     = "mydemosan2"
+}
 variable "location" {
   description = "The region where the virtual network is created."
   default     = "uksouth"
