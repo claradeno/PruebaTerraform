@@ -20,7 +20,7 @@ variable "hostname" {
   default     = "mydemosan1"
 }
 
-variable "hostname" {
+variable "hostname2" {
   description = "Virtual machine hostname. Used for local hostname, DNS, and storage-related names."
   default     = "mydemosan2"
 }
